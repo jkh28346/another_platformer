@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+}
+
+@font-face{
+	font-family: pearsoda;
+	src: url("../fonts/PearSoda.ttf");
+}
+
+body{
+	background-color: black;
+	background-image: url("../images/background-1.png");
+	background-size: cover;
+    background-repeat: repeat-x;
+	image-rendering: pixelated;
+	
+	/*always hug the bottom of the viewport*/
+	background-position: bottom;
+	min-height: 100vh;
+}
+
+main{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+section{
+	padding: 10px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-family: pearsoda, sans-serif; 
+	font-size: xx-large;
+	list-style-type: none;
+	padding: 0px;
+}
+
+header{
+	background-image: url("../images/navbox.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	
+	/* keep the header art and nav from shifting on pages with no scrollbar */
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 98vw;
+}
+
+img.center{
+	display: block;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.left{
+	display: block;
+	align-items: center;
+	margin-left: 20%;
+	margin-right: auto;
+}
+
+img.right{
+	display: block;
+	align-items: center;
+	margin-left: auto;
+	margin-right: 20%;
+}
+
+p{
+	font-family: sans-serif;
+	color: white;
+	padding: 5px;
+	font-weight: bolder;
+	text-shadow: black 1px 1px 1px;
+}
+
+form{
+	font-family: pearsoda, sans-serif;
+	font-size: 25px;
+	color: white;
+	padding: 120px;
+
+	background-image: url("../images/feedbackbox.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+}
+
+h1, h2, h3{
+	font-family: pearsoda, sans-serif;
+	font-size: xx-large;
+	font-weight: 300;
+	color: white;
+
+	text-shadow: black 1px 1px 1px;
+}
+
+h3{
+	font-family: pearsoda, sans-serif;
+	font-size: x-large;
+	font-weight: 300;
+	color: white;
+}
+
+
+
+.youtube{
+	display: block;
+	align-items: center;
+	width: 90%;
+	aspect-ratio: 16 / 9;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img{
+	image-rendering:pixelated;
+}
+
+.social-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+a:link, a:visited{
+	color: white;
+	text-decoration-line: none;
+}
+
+a:active{
+	color: white;
+}
+
+a:hover{
+	font-weight: 600;
+}
+
+footer{
+	text-align: center;
+	color:white;
+	font-family: pearsoda, sans-serif;
+
+	display:block;
+	position: fixed;
+	justify-self: center;
+	padding: 10px;
+	bottom: 0px;
+
+	background-color: #291c2e;
+	border-radius: 10px 10px 0px 0px;
+}
