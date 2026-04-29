@@ -112,7 +112,9 @@ h3{
 	color: white;
 }
 
-
+.tcenter{
+	text-align: center;
+}
 
 .youtube{
 	display: block;
@@ -125,6 +127,14 @@ h3{
 
 img{
 	image-rendering:pixelated;
+}
+
+img.fleft{
+	float: left;
+}
+
+img.fright{
+	float: right;
 }
 
 .social-flex{
