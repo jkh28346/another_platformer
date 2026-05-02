@@ -141,7 +141,6 @@ img.fright{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
 a:link, a:visited{
@@ -164,10 +163,10 @@ footer{
 
 	display:block;
 	position: fixed;
-	justify-self: center;
+	justify-self: left;
 	padding: 10px;
 	bottom: 0px;
 
 	background-color: #291c2e;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 0px 10px 0px 0px;
 }
