@@ -7,6 +7,8 @@
 	src: url("../fonts/PearSoda.ttf");
 }
 
+/* main content */
+
 body{
 	background-color: black;
 	background-image: url("../images/background-1.png");
@@ -53,27 +55,6 @@ header{
 	padding-top: 10px;
 	padding-bottom: 20px;
 	width: 98vw;
-}
-
-img.center{
-	display: block;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-img.left{
-	display: block;
-	align-items: center;
-	margin-left: 20%;
-	margin-right: auto;
-}
-
-img.right{
-	display: block;
-	align-items: center;
-	margin-left: auto;
-	margin-right: 20%;
 }
 
 p{
@@ -125,6 +106,8 @@ h3{
 	margin-right: auto;	
 }
 
+/* images */
+
 img{
 	image-rendering:pixelated;
 }
@@ -137,11 +120,42 @@ img.fright{
 	float: right;
 }
 
+img.center{
+	display: block;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.left{
+	display: block;
+	align-items: center;
+	margin-left: 20%;
+	margin-right: auto;
+}
+
+img.right{
+	display: block;
+	align-items: center;
+	margin-left: auto;
+	margin-right: 20%;
+}
+
+img.banners{
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+	border: 5px solid white;
+}
+
 .social-flex{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+/* links */
 
 a:link, a:visited{
 	color: white;
@@ -155,6 +169,8 @@ a:active{
 a:hover{
 	font-weight: 600;
 }
+
+/* footer */
 
 footer{
 	text-align: center;
