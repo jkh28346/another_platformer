@@ -145,8 +145,13 @@ img.banners{
 	display: flex;
 	align-items: center;
 	width: 100%;
-
+	
 	border: 5px solid white;
+}
+
+img.socials{
+	image-rendering:auto;
+	width: 40px;
 }
 
 .social-flex{
